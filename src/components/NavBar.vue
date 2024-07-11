@@ -12,10 +12,10 @@
                 <RouterLink to="/" class="text-decoration-none text-black font-bold">Pricing</RouterLink>
             </li>
             <li class="list-group-item border-0">
-                <RouterLink to="/privacy-policy" class="text-decoration-none text-black font-bold">Blog</RouterLink>
+                <RouterLink to="/" class="text-decoration-none text-black font-bold">Blog</RouterLink>
             </li>
             <li class="list-group-item border-0">
-                <RouterLink to="/user-agreement" class="text-decoration-none text-black font-bold">About us</RouterLink>
+                <RouterLink to="/" class="text-decoration-none text-black font-bold">About us</RouterLink>
             </li>
         </ul>
         <div class="flex items-center">

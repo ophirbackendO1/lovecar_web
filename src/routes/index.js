@@ -4,8 +4,9 @@ const routes = [
   { path: '/',component: () => import('../views/Home.vue') },
   { path: '/privacy-policy', component: () => import('../views/PrivacyPolicy.vue') },
   { path: '/user-agreement', component: () => import('../views/UserAgreement.vue') },
-  { path : '/login', component : () => import('../views/Login.vue') },
-  { path : '/profile/:id', name : "Profile",component : () => import('../views/Profile.vue') }
+  { path : '/account_delete', component: () => import('../views/AccountDelete.vue') },
+  { path : '/account_confirm/:id/:email/:phone/:image',name : 'AccountConfirm' ,component: () => import('../views/AccountConfirm.vue'), props : true },
+  { path : '/account_delete_success', component: () => import('../views/AccountDeleteSuccess.vue')}
 ]
 
 const router = createRouter({
