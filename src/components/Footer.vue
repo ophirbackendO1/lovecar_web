@@ -20,16 +20,16 @@
           <RouterLink to="/" class="text-decoration-none text-black">
             <li class="my-2 font-semibold">Contact Us</li>
           </RouterLink>
-          <RouterLink to="/privacy-policy" class="text-decoration-none text-black">
+          <a href="/privacy-policy" class="text-decoration-none text-black">
             <li class="my-2 font-semibold">Privacy Policy</li>
-          </RouterLink>
-          <RouterLink to="/user-agreement" class="text-decoration-none text-black">
+          </a>
+          <a href="/user-agreement" class="text-decoration-none text-black">
             <li class="my-2 font-semibold">User Agreement</li>
-          </RouterLink>
+          </a>
         </ul>
       </div>
 
-      <div class="col-md-4 text-center text-sm-center text-md-start text-lg-start">
+      <div class="col-md-4 mt-3 text-center text-sm-center text-md-start text-lg-start">
         <h4 class="font-semibold mb-3">Social Links</h4>
         <a href="mailto:info.lovecar@gmail.com" class="nav-brand text-center text-sm-center text-md-start text-lg-start font-bold text-red-500 text-decoration-none mt-5">
           info.lovecar@gmail.com
