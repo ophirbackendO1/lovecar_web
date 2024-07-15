@@ -16,6 +16,8 @@ library.add(faBars,faPencil,faEnvelope,faPhone,faTrashCan);
 //toastification
 import Toast from 'vue-toastification'
 import 'vue-toastification/dist/index.css'
+import { faInstagram,faFacebook,faFacebookMessenger, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+library.add(faInstagram,faFacebook,faFacebookMessenger,faLinkedin,faYoutube);
 
 createApp(App)
 .use(bootstrap).use(router)
