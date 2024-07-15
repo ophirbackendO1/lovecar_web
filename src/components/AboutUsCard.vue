@@ -1,7 +1,7 @@
 <template>
     <div class="card my-2 rounded-4 border-0">
         <div class="card-title d-flex p-3">
-            <font-awesome-icon class="fs-4 text-info" :icon="icon" />
+            <font-awesome-icon class="fs-4 text-danger" :icon="icon" />
             <p class="ms-2">{{ title }}</p>
         </div>
         <div class="card-body">
@@ -9,7 +9,7 @@
         </div>
 
         <div class="card-footer border-0">
-            <Button class="bg-info w-100 text-white" :text="button_name" />
+            <Button class="bg-danger w-100 text-white" :text="button_name" />
         </div>
     </div>
 </template>

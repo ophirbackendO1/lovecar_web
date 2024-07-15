@@ -10,8 +10,8 @@ import bootstrap from 'bootstrap/dist/js/bootstrap.js'
 // fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faBars,faPencil,faEnvelope,faPhone,faTrashCan} from '@fortawesome/free-solid-svg-icons';
-library.add(faBars,faPencil,faEnvelope,faPhone,faTrashCan);
+import { faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark} from '@fortawesome/free-solid-svg-icons';
+library.add(faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark);
 
 //toastification
 import Toast from 'vue-toastification'
