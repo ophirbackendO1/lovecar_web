@@ -23,24 +23,40 @@
             <div class="flex items-center">
                 <Button @click="download" text="Download"
                     classes="btn btn-danger d-lg-block d-md-block d-sm-none d-none " />
-                <button @click="download" class="text-red-500 fw-bold d-lg-none d-md-none d-sm-block d-block me-2 mb-1">
+                <button v-if="!dropDown" @click="download" class="text-red-500 fw-bold d-lg-none d-md-none d-sm-block d-block me-2 mb-1">
                     Download
                 </button>
-                <button class="ms-2 d-lg-none d-md-none d-sm-inline d-inline me-2">
-                    <font-awesome-icon class="fs-5 text-red-500" icon="fa-solid fa-bars" />
+                <button @click="menuOpen" class="ms-2 d-lg-none d-md-none d-sm-inline d-inline me-2">
+                    <font-awesome-icon v-if="!dropDown" class="fs-5 text-red-500" icon="fa-solid fa-bars" />
+                    <font-awesome-icon v-if="dropDown" class="fs-5 text-red-500" icon="fa-solid fa-xmark" />
                 </button>
+                
             </div>
         </nav>
+        <ul v-if="dropDown" class="p-0 m-0">
+            <li class="my-4 text-red-500 px-3 py-3 bg-blue-50 rounded-pill"><a href="/">Home</a></li>
+            <li class="my-4 text-red-500 px-3"><a href="/blog">Blog</a></li>
+            <li class="my-4 text-red-500 px-3"><a href="/about-us">About Us</a></li>
+            <li class="my-4 text-red-500 px-3"><button @click="download">Download</button></li>
+        </ul>
     </div>
 </template>
 
 <script setup>
+import {ref} from 'vue';
 import Button from "@/components/Button.vue";
 import { RouterLink } from "vue-router";
 import axios from "axios";
+import { Dropdown } from 'bootstrap';
 
 const download = () => {
     window.open("https://admin.love-car.org/Downloads/lovecar.apk");
+}
+
+const dropDown = ref(false)
+
+const menuOpen = () => {
+    dropDown.value = !dropDown.value
 }
 
 // const download = async () => {
@@ -72,4 +88,9 @@ const download = () => {
 // };
 </script>
 
-<style scoped></style>
+<style scoped>
+ul li a{
+    color:red;
+    text-decoration:none;
+}
+</style>

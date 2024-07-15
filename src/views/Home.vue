@@ -30,24 +30,26 @@
     <div class="container">
       <div class="mb-20 row py-5" style="margin-top:50px;margin-left:0px;width:100%">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="စီမံခန့်ခွဲမှု"
+          <InfoCard title="ဗဟုသုတတွေလည်းရ၊ အသုံးစရိတ်တွေကို စီမံခန့်ခွဲလို့လည်းရ"
             image="https://i0.wp.com/www.tireexpresspa.com/wp-content/uploads/2020/12/75-754987_car-maintenance-cliparts-car-maintenance-icon-png.png?fit=900%2C654&ssl=1"
-            description="ကိုယ့်ကားရဲ့ ဆီစရိတ်၊ ပြင်ဆင်စရိတ်၊ လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်မယ်။ (Taxi
-            ဖြစ်လျှင် ငှားရမ်းခနှင့် ဝင်‌ငွေများကို ထည့်သွင်းတွက်ချက်နိုင်မယ်။)" />
+            description="ယာဥ်စည်းကမ်း၊ လမ်းစည်းကမ်းများဖတ်ရှုနိုင်ပီး ကားအသုံးစရိတ်၊ဝင်ငွေများကို တွက်ချက်နိုင်" />
 
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="ရှာဖွေမှု"
-            image="https://static.vecteezy.com/system/resources/thumbnails/024/861/695/small_2x/discover-your-outdoor-destination-with-this-3d-icon-of-a-map-location-png.png"
-            description="ကားနှင့် ပတ်သက်သော workshop များ၊ ဆီဆိုင်များနှင့် showroom များကိုလည်း လွယ်ကူမြန်ဆန်စွာ ရှာဖွေနိုင်မည်။" />
+          <InfoCard title="အချိန်ကုန်လူပင်ပန်းအသက်သာဆုံး"
+            image="https://cdn.pixabay.com/photo/2018/01/11/20/33/accounting-3076855_640.jpg"
+            description="လချုပ်စာရင်းမှတ်တမ်းများကို လွယ်ကူစွာ တွက်ချက်ကြည့်ရှုနိုင်
+" />
 
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="သိကောင်းစရာများ"
-            image="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-quick-tips-with-light-bulb-icon-suggestion-logo-helpful-vector-png-image_37748712.png"
-            description="ကားထိန်းသိမ်းနည်းများ၊ ဆီစျေးနှုန်းများ၊ ကားအစိတ်အပိုင်းများအကြောင်း၊ ကားနှင့်ပတ်သက်သော ပြဿနာဖြေရှင်းများကိုလည်း လေ့လာနိုင်မည်။" />
+          <InfoCard title="လက်ရှိအသုံးပြုသူပေါင်း
+"
+            image="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png"
+            description="၈ သိန်း +++" />
+            
 
         </div>
 
@@ -68,7 +70,7 @@
       <div class="col-md-8 mt-3">
         <p
           class="text-left text-sm-left text-md-center text-lg-center text-xl-center tracking-normal text-base sm:text-base md:text-lg lg:text-lg xl:text-lg leading-7">
-          ကားချစ်သူများအတွက် မိမိတို့ကားများရဲ့ဆီစရိတ် ၊ ကားပြင်စရိတ်များ နှင့် လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်မည့်အပြင် ကားနှင့်ပတ်သက်သော workshpများ ၊ ဆီဆိုင်များနှင့် showroom များကိုလည်းလွယ်ကူစွာရှာဖွေကြည့်ရှုနိုင်မည့် Application တစ်ခုဖြစ်ပါတယ်။</p>
+          ကားအသုံးပြုသူများအတွက် မိမိကားရဲ့ အသုံးစရိတ်၊ ကုန်ကျစရိတ်များ၊ ဝင်ငွေများကို တွက်ချက်နိုင်ပြီး လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်သည့်အပြင် ကားနှင့်ပက်သက်သော အရောင်းဆိုင်များ၊ ကားဝပ်ရှော့ဆိုင်များ နှင့် ဆီဆိုင်များကို အလွယ်တကူရှာဖွေကြည့်ရှုနိုင်မည့်  Application တစ်ခုပဲဖြစ်ပါတယ်။</p>
       </div>
 
     </div>
@@ -85,46 +87,44 @@
         <div class="mb-20 row" style="margin-left:0px;width:100%">
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="စီမံခန့်ခွဲမှု"
-              image="https://i0.wp.com/www.tireexpresspa.com/wp-content/uploads/2020/12/75-754987_car-maintenance-cliparts-car-maintenance-icon-png.png?fit=900%2C654&ssl=1"
-              description="ကိုယ့်ကားရဲ့ ဆီစရိတ်၊ ပြင်ဆင်စရိတ်၊ လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်မယ်။ (Taxi
-ဖြစ်လျှင် ငှားရမ်းခနှင့် ဝင်‌ငွေများကို ထည့်သွင်းတွက်ချက်နိုင်မယ်။)" />
+            <InfoCard title="လိုင်စင်လျှောက်နည်းများ"
+              image="https://cdn.pixabay.com/photo/2017/10/17/07/51/license-2859796_1280.png"
+              description="ယာဥ်လိုင်စင်  ယာဥ်မောင်းလိုင်စင် လျှောက်နည်းများကို တစုတစည်းတည်း ရှာဖွေနိုင်မယ်။"/>
 
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="ရှာဖွေမှု"
-              image="https://static.vecteezy.com/system/resources/thumbnails/024/861/695/small_2x/discover-your-outdoor-destination-with-this-3d-icon-of-a-map-location-png.png"
-              description="ကားနှင့် ပတ်သက်သော workshop များ၊ ဆီဆိုင်များနှင့် showroom များကိုလည်း လွယ်ကူမြန်ဆန်စွာ ရှာဖွေနိုင်မည်။" />
+            <InfoCard title="ဗဟုသုတအကြောင်းအရာများ"
+              image="https://cdn.pixabay.com/photo/2023/03/19/14/04/lamp-7862625_640.png"
+              description="ယာဥ်မောင်းတစ်ယောက်အနေနဲ့ သိသင့်တဲ့ ဗဟုသုတတွေ၊ သတင်းအကြောင်းအရာတွေကို ဖတ်ရှုနိုင်မယ်။" />
 
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="သိကောင်းစရာများ"
-              image="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-quick-tips-with-light-bulb-icon-suggestion-logo-helpful-vector-png-image_37748712.png"
-              description="ကားထိန်းသိမ်းနည်းများ၊ ဆီစျေးနှုန်းများ၊ ကားအစိတ်အပိုင်းများအကြောင်း၊ ကားနှင့်ပတ်သက်သော ပြဿနာဖြေရှင်းများကိုလည်း လေ့လာနိုင်မည်။" />
+            <InfoCard title="လေ့ကျင့်ခန်းမေးခွန်းများ"
+              image="https://cdn.pixabay.com/photo/2016/05/30/14/23/detective-1424831_1280.png"
+              description="ယာဥ်မောင်းလိုင်စင် ဖြေမယ့်သူတွေအနေနဲ့လည်း စမ်းလေ့ကျင့်ခန်းမေးခွန်းတွေ ဖြေဆိုနိုင်မယ်။" />
 
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="စီမံခန့်ခွဲမှု"
-              image="https://i0.wp.com/www.tireexpresspa.com/wp-content/uploads/2020/12/75-754987_car-maintenance-cliparts-car-maintenance-icon-png.png?fit=900%2C654&ssl=1"
-              description="ကိုယ့်ကားရဲ့ ဆီစရိတ်၊ ပြင်ဆင်စရိတ်၊ လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်မယ်။ (Taxi
-ဖြစ်လျှင် ငှားရမ်းခနှင့် ဝင်‌ငွေများကို ထည့်သွင်းတွက်ချက်နိုင်မယ်။)" />
+            <InfoCard title="အသုံးစရိတ်စီမံခန့်ခွဲမှုများ"
+              image="https://cdn.pixabay.com/photo/2015/11/03/08/53/calculator-1019743_640.jpg"
+              description="ယာဥ်မောင်း၊ ယာဥ်ပိုင်ရှင်၊ ယာဥ်အသုံးပြုသူတွေအနေနဲ့ ကားရဲ့ဆီစရိတ်၊ ကုန်ကျစရိတ် တွေကို တွက်ချက်နိုင်မယ်။ (တက္ကစီဖြစ်ပါက ဝင်ငွေနှင့် ငှားရမ်းခကိုပါ တွက်ချက်နိုင်မယ်။)"/>
 
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="ရှာဖွေမှု"
-              image="https://static.vecteezy.com/system/resources/thumbnails/024/861/695/small_2x/discover-your-outdoor-destination-with-this-3d-icon-of-a-map-location-png.png"
-              description="ကားနှင့် ပတ်သက်သော workshop များ၊ ဆီဆိုင်များနှင့် showroom များကိုလည်း လွယ်ကူမြန်ဆန်စွာ ရှာဖွေနိုင်မည်။" />
+            <InfoCard title="တည်နေရာရှာဖွေမှုများ"
+              image="https://cdn.pixabay.com/photo/2024/07/06/04/27/map-8875912_640.png"
+              description="ယာဥ်နှင့် ပက်သက်သော ဆိုင်များ၊ ကားအရောင်းဆိုင်၊ကားဝပ်‌ရှော့ဆိုင်၊ကားအပိုပစ္စည်းဆိုင်များရဲ့ တည်နေရာကို အလွယ်တကူ ရှာဖွေနိုင်မယ်။" />
 
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-            <InfoCard title="သိကောင်းစရာများ"
-              image="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-quick-tips-with-light-bulb-icon-suggestion-logo-helpful-vector-png-image_37748712.png"
-              description="ကားထိန်းသိမ်းနည်းများ၊ ဆီစျေးနှုန်းများ၊ ကားအစိတ်အပိုင်းများအကြောင်း၊ ကားနှင့်ပတ်သက်သော ပြဿနာဖြေရှင်းများကိုလည်း လေ့လာနိုင်မည်။" />
+            <InfoCard title="ကားလုပ်ငန်းကြောငြာနှင့်စီမံခန့်ခွဲမှုများ"
+              image="https://cdn.pixabay.com/photo/2018/01/25/10/47/marketing-strategies-3105875_1280.jpg"
+              description="ယာဥ်နှင့် ပက်သက်သောလုပ်ငန်းများလုပ်ကိုင်နေသော လုပ်ငန်းရှင်များအနေနဲ့လည်း ကိုယ့်ရဲ့လုပ်ငန်းနဲ့ပက်သက်တဲ့အကြောင်းအရာတွေကို ကြော်ငြာနိုင်မယ့်အပြင် စီမံခန့်ခွဲနိုင်မယ်။" />
 
           </div>
 
@@ -154,18 +154,18 @@
             <div class="row">
               <div class="col-12 col-lg-4">
                 <img
-                  src="https://media.istockphoto.com/id/1406560627/photo/we-want-your-feedback-written-in-speech-bubble-on-yellow-background.webp?b=1&s=170667a&w=0&k=20&c=3P-qH2lHbjXkUu3_U5trQfKD2BGD0EYg_B2CfnKF-Wk="
-                  class="d-block w-100" alt="...">
+                  src="../images/feedback2.jpg"
+                  class="d-block w-100" style="height:250px;" alt="...">
               </div>
               <div class="col-12 col-lg-4 d-none d-lg-block">
                 <img
-                  src="https://media.istockphoto.com/id/1406560627/photo/we-want-your-feedback-written-in-speech-bubble-on-yellow-background.webp?b=1&s=170667a&w=0&k=20&c=3P-qH2lHbjXkUu3_U5trQfKD2BGD0EYg_B2CfnKF-Wk="
-                  class="d-block w-100" alt="...">
+                  src="../images/feedback.jpg"
+                  class="d-block w-100" style="height:250px;" alt="...">
               </div>
               <div class="col-12 col-lg-4 d-none d-lg-block">
                 <img
-                  src="https://media.istockphoto.com/id/1406560627/photo/we-want-your-feedback-written-in-speech-bubble-on-yellow-background.webp?b=1&s=170667a&w=0&k=20&c=3P-qH2lHbjXkUu3_U5trQfKD2BGD0EYg_B2CfnKF-Wk="
-                  class="d-block w-100" alt="...">
+                  src="../images/feedback2.jpg"
+                  class="d-block w-100" style="height:250px;" alt="...">
               </div>
             </div>
           </div>
@@ -208,12 +208,12 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-prev text-red-500" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-next text-red-500" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -252,4 +252,5 @@ import Footer from '@/components/Footer.vue';
 
 </script>
 
-<style scoped></style>
+<style scoped>      
+</style>
