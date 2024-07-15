@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container min-vh-100 pt-4 poppins-regular">
+  <div class="min-vh-100 poppins-regular">
       <Navbar/>
       <RouterView/>
   </div>
@@ -9,6 +9,7 @@
 <script setup>
 import Navbar from '@/components/NavBar.vue'
 import { RouterView } from 'vue-router';
+
 
 </script>
 

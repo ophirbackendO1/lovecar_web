@@ -1,6 +1,6 @@
 <template>
 
-    <div class="body">
+    <div class="container body mx-2">
         <h2 class="my-4 text-lg-start text-md-start text-sm-center text-center">User Agreements</h2>
         <p><strong>Last Updated: June 27, 2024</strong></p>
         <p>Welcome to Love Car, a service provided by Ophir IT Solutions. By accessing or using our application and

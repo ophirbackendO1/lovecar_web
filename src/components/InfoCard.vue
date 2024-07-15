@@ -4,7 +4,7 @@
             <img :src="image" class="w-36 rounded-circle img-thumbnail"
                 style="width:130px;height:130px;object-fit:cover;object-position:center">
         </div>
-        <div class="text-center font-bold my-4 fs-4">
+        <div class="text-center font-semibold my-4 fs-4">
             {{ title }}
         </div>
         <div class="text-center">{{ description }}</div>
