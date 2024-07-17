@@ -8,11 +8,11 @@
                     LoveCar Application
                 </h5>
                 <p class="mt-3 leading-7">
-                    Love Car Application က ကားအသုံးပြုသူများအတွက် မိမိကားရဲ့ ကုန်ကျစရိတ်၊ အသုံးစရိတ်များကို စီမံခန့်ခွဲနိုင်ပြီး တစ်လအတွင်း ကုန်ကျစရိတ်၊ ဝင်ငွေများကို လချုပ်စာရင်းမှတ်တမ်းအနေနဲ့ ပြန်လည်ကြည့်ရှုနိုင်တဲ့ App တစ်ခုဖြစ်ပါတယ်။ ထို့အပြင် ယာဥ်မောင်းတစ်ယောက်သိသင့် ၊ သိထိုက်တဲ့ ဗဟုသုတအကြောင်းအရာတွေကို ဖတ်ရှုနိုင်မယ့်အပြင် ယာဥ်မောင်းလိုင်စင်ဖြေဆိုသူများအနေနဲ့ လေ့ကျင့်ခန်းမေးခွန်းလွှာများကို အစမ်းလေ့ကျင့် ဖြေဆိုနိုင်ပါတယ်။
+                    LoveCar Application ဆိုသည်မှာ ကားအသုံးပြုသူများအတွက် မိမိကားရဲ့ ကုန်ကျစရိတ်၊ အသုံးစရိတ်များကို စီမံခန့်ခွဲနိုင်ပြီး တစ်လအတွင်း ကုန်ကျစရိတ်၊ ဝင်ငွေများကို လချုပ်စာရင်းမှတ်တမ်းအနေနဲ့ ပြန်လည်ကြည့်ရှုနိုင်တဲ့ App တစ်ခုဖြစ်ပါတယ်။ ထို့အပြင် ယာဥ်မောင်းတစ်ယောက်သိသင့် ၊ သိထိုက်တဲ့ ဗဟုသုတအကြောင်းအရာတွေကို ဖတ်ရှုနိုင်မယ့်အပြင် ယာဥ်မောင်းလိုင်စင်ဖြေဆိုသူများအနေနဲ့ လေ့ကျင့်ခန်းမေးခွန်းလွှာများကို အစမ်းလေ့ကျင့် ဖြေဆိုနိုင်ပါတယ်။
                 </p>
             </div>
             <div class="col-md-6 d-flex justify-center" style="margin-top: 70px">
-                <img src="https://media.istockphoto.com/id/1281297414/photo/artificial-intelligence-and-communication-network-concept.jpg?s=2048x2048&w=is&k=20&c=xTFdQlmRmXXn-Z_TwFY7M1LyWHyFtmyK7a1ixOjlx7g="
+                <img src="https://cdn.pixabay.com/photo/2022/01/07/01/22/girl-6920630_1280.jpg"
                     alt="" class="rounded-4" style="width: 90%" />
             </div>
         </div>
@@ -20,7 +20,7 @@
         <!-- ဘယ်လိုလူတွေ အသုံးပြုသင့်သလဲ?  -->
         <div class="sm:my-0 md:my-5 lg:my-5 row flex justify-center items-center">
             <div class="col-md-6 d-flex justify-center" style="margin-top: 80px">
-                <img src="https://cdn.pixabay.com/photo/2023/05/05/06/35/digital-7971754_640.jpg"
+                <img src="https://cdn.pixabay.com/photo/2016/02/07/14/35/smartphone-1184865_1280.png"
                     alt="" class="rounded-4" style="width: 90%" />
             </div>
             <div class="col-md-6 mt-3">
@@ -43,7 +43,7 @@
                     <p class="font-semibold text-center text-sm-center text-md-start text-lg-start fs-5">
                         ဘယ်လိုအကြောင်းအရာတွေပါလဲ
                     </p>
-                    <ul class="p-1 list-group leading-7">
+                    <ul class="p-1 list-group leading-7 ">
                         <li class="mx-3" v-for="content in contents" :key="content">{{ content }}</li>
                     </ul>
                 </div>
@@ -67,12 +67,6 @@
                     </p>
                     <ul class="p-1 list-group leading-7">
                         <li class="mx-3" v-for="advantage in advantages" :key="advantage">{{ advantage }}</li>
-                        <!-- <li class="mx-3">ကိုယ်ပိုင်ကားရှိသူများ နှင့် အငှားယာဉ် မောင်းသူများ အလွယ်တကူသုံးစွဲနိုင်တဲ့ တစ်ခုဖြစ်ပါတယ်။</li>
-                        <li class="mx-3"></li>
-                        <li class="mx-3">တစ်ခါ download လုပ်ထားရုံနဲ့ offline မှာ အခါခါပြန်လည် ဖတ်ရှုနားဆင်နိုင်တယ်။
-                        </li>
-                        <li class="mx-3">စာအုပ်ပေါင်း(၅၀၀)နီးပါး ထည့်သွင်းတင်ဆက်ပေးထားတယ်။</li>
-                        <li class="mx-3">နိုင်ငံတကာစာအုပ်တွေကို up - to - date တင်ဆက်ပေးနေတယ်။</li> -->
                     </ul>
                 </div>
             </div>
