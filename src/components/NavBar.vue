@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid z-10" style="position:sticky;top:0">
+    <div class="z-10" style="position:sticky;top:0">
         <nav class="flex justify-around items-center bg-white py-3">
             <RouterLink to="/" class="nav-brand flex items-center font-semibold text-red-500 fs-3 text-decoration-none">
                 <img src="../images/logo.png" style="width: 45px" />
@@ -7,16 +7,16 @@
             </RouterLink>
             <ul class="list-group list-group-horizontal d-lg-flex d-md-flex d-sm-none d-none">
                 <li class="list-group-item border-0">
-                    <RouterLink to="/" class="text-decoration-none text-black font-semibold">Home</RouterLink>
+                    <RouterLink to="/" class="text-decoration-none font-semibold">Home</RouterLink>
                 </li>
                 <li class="list-group-item border-0">
-                    <RouterLink to="/" class="text-decoration-none text-black font-semibold">Pricing</RouterLink>
+                    <RouterLink to="/pricing" class="text-decoration-none font-semibold">Pricing</RouterLink>
                 </li>
                 <li class="list-group-item border-0">
-                    <RouterLink to="/blog" class="text-decoration-none text-black font-semibold">Blog</RouterLink>
+                    <RouterLink to="/blog" class="text-decoration-none font-semibold">Blog</RouterLink>
                 </li>
                 <li class="list-group-item border-0">
-                    <RouterLink to="/about-us" class="text-decoration-none text-black font-semibold">About us
+                    <RouterLink to="/about-us" class="text-decoration-none font-semibold">About us
                     </RouterLink>
                 </li>
             </ul>
@@ -33,8 +33,8 @@
                 
             </div>
         </nav>
-        <ul v-if="dropDown" class="p-0 m-0">
-            <li class="my-4 text-red-500 px-3 py-3 bg-blue-50 rounded-pill"><a href="/">Home</a></li>
+        <ul v-if="dropDown" class="p-2 m-0 bg-[#f5cac3]">
+            <li class="my-4 text-red-500 px-3"><a href="/">Home</a></li>
             <li class="my-4 text-red-500 px-3"><a href="/blog">Blog</a></li>
             <li class="my-4 text-red-500 px-3"><a href="/about-us">About Us</a></li>
             <li class="my-4 text-red-500 px-3"><button @click="download">Download</button></li>
@@ -58,6 +58,8 @@ const dropDown = ref(false)
 const menuOpen = () => {
     dropDown.value = !dropDown.value
 }
+
+
 
 // const download = async () => {
 //     const response = await axios.get("@/LoveCar.apk", {
@@ -89,8 +91,45 @@ const menuOpen = () => {
 </script>
 
 <style scoped>
-ul li a{
+
+li a.router-link-exact-active{
     color:red;
+}
+
+
+ul li a{
+    color:black;
     text-decoration:none;
 }
+ .container-fluid ul li:before{
+    content: "";
+    position:absolute;
+    width:0%;
+    height:3px;
+    background-color:#000;
+    bottom:0;
+    left:0;
+    transition:0.5s;
+    border-radius:5px;
+}
+ .container-fluid ul li:after{
+    content: "";
+    position:absolute;
+    width:0%;
+    height:3px;
+    background-color:red;
+    bottom:0;
+    right:0;
+    transition:0.5s;
+}
+ .container-fluid ul li:hover:before{
+    width:50%;
+    transform:translateX(100%);
+}
+ .container-fluid ul li:hover:after{
+    width:50%;
+    transform:translateX(-100%);
+}
+
+
 </style>
