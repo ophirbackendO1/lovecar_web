@@ -97,7 +97,7 @@ import Footer from "@/components/Footer.vue";
 const cards = ref([
     {
         title: 'Call Us',
-        description: '09++++++++++ နှင့် 09++++++++++ တို့ကို ဆက်သွယ်နိုင်ပါသည်။',
+        description: '09 650932592ကို ဆက်သွယ်နိုင်ပါသည်။',
         button_name: 'Call',
         icon: 'fa-solid fa-phone'
     },
