@@ -8,7 +8,7 @@
         <div>
           <div class="fs-4 font-normal mb-2 mt-lg-0 mt-md-5 mt-sm-5 mt-5">ကားချစ်သူများအတွက် တစ်နေရာတည်းမှာ
             ပြီးပြည့်စုံစေမယ့်</div>
-          <div class="fs-2 font-semibold">ALL IN ONE LoveCar Application</div>
+          <div class="fs-3 font-semibold">ALL IN ONE LoveCar Application</div>
           <div
             class="flex justify-content-lg-start justify-content-md-center justify-content-sm-center justify-content-center">
             <a href="https://play.google.com/store/apps/details?id=love.car.mm">
@@ -29,27 +29,11 @@
   <div class="container-fluid bg-[#f5e0e0] bg-opacity-30">
     <div class="container">
       <div class="mb-20 row py-5" style="margin-top:50px;margin-left:0px;width:100%">
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="ဗဟုသုတတွေလည်းရ၊ အသုံးစရိတ်တွေကို စီမံခန့်ခွဲလို့လည်းရ"
-            image="https://i0.wp.com/www.tireexpresspa.com/wp-content/uploads/2020/12/75-754987_car-maintenance-cliparts-car-maintenance-icon-png.png?fit=900%2C654&ssl=1"
-            description="ယာဥ်စည်းကမ်း၊ လမ်းစည်းကမ်းများဖတ်ရှုနိုင်ပီး ကားအသုံးစရိတ်၊ဝင်ငွေများကို တွက်ချက်နိုင်" />
-
+        <div v-for="manageCard in manageCards" :key="manageCard.title" class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <InfoCard :title="manageCard.title"
+            :image="manageCard.image"
+            :description="manageCard.description" />
         </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="အချိန်ကုန်လူပင်ပန်းအသက်သာဆုံး"
-            image="https://cdn.pixabay.com/photo/2018/01/11/20/33/accounting-3076855_640.jpg" description="လချုပ်စာရင်းမှတ်တမ်းများကို လွယ်ကူစွာ တွက်ချက်ကြည့်ရှုနိုင်
-" />
-
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-3">
-          <InfoCard title="လက်ရှိအသုံးပြုသူပေါင်း
-" image="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png" description="+++" />
-
-
-        </div>
-
       </div>
     </div>
   </div>
@@ -62,13 +46,12 @@
       </div>
 
       <div class="col-md-6 text-center mt-4">
-        <p class="fs-5 font-semibold">Love Car ဆိုတာဘာလဲ</p>
+        <p class="fs-5 font-semibold">{{ carSection.title }}</p>
       </div>
       <div class="col-md-12 mt-3">
         <p class="tracking-wide text-base sm:text-base md:text-lg lg:text-lg xl:text-lg leading-8">
-          ကားအသုံးပြုသူများအတွက် မိမိကားရဲ့ အသုံးစရိတ်၊ ကုန်ကျစရိတ်များ၊ဝင်ငွေများကိုတွက်ချက်နိုင်ပြီး
-          လချုပ်စာရင်းများကို ကြည့်ရှုနိုင်သည့်အပြင် ကားနှင့်ပက်သက်သောအရောင်းဆိုင်များ၊ကားဝပ်ရှော့ဆိုင်များ နှင့်
-          ဆီဆိုင်များကို အလွယ်တကူရှာဖွေကြည့်ရှုနိုင်မည့် Application တစ်ခုပဲဖြစ်ပါတယ်။</p>
+          {{ carSection.description }}
+       </p>
       </div>
 
     </div>
@@ -235,6 +218,33 @@ const cards = ref([
     image: 'https://cdn.pixabay.com/photo/2018/01/25/10/47/marketing-strategies-3105875_1280.jpg'
   }
 ])
+
+const manageCards = ref([
+  {
+    title: 'ဗဟုသုတတွေလည်းရ၊ အသုံးစရိတ်တွေကို စီမံခန့်ခွဲလို့လည်းရ',
+    description: 'ယာဥ်စည်းကမ်း၊ လမ်းစည်းကမ်းများဖတ်ရှုနိုင်ပီး ကားအသုံးစရိတ်၊ဝင်ငွေများကို တွက်ချက်နိုင်',
+    image: 'https://i0.wp.com/www.tireexpresspa.com/wp-content/uploads/2020/12/75-754987_car-maintenance-cliparts-car-maintenance-icon-png.png?fit=900%2C654&ssl=1'
+  },
+  {
+    title: 'အချိန်ကုန်လူပင်ပန်းအသက်သာဆုံး',
+    description: 'လချုပ်စာရင်းမှတ်တမ်းများကို လွယ်ကူစွာ တွက်ချက်ကြည့်ရှုနိုင်',
+    image: 'https://cdn.pixabay.com/photo/2018/01/11/20/33/accounting-3076855_640.jpg'
+  },
+  {
+    title: 'လက်ရှိအသုံးပြုသူပေါင်း',
+    description: '+++',
+    image: 'https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png'
+  },
+
+])
+
+const carSection = ref({
+  title : 'Love Car ဆိုတာဘာလဲ',
+  description : 'ကားအသုံးပြုသူများအတွက် မိမိကားရဲ့ အသုံးစရိတ်၊ ကုန်ကျစရိတ်များ၊ဝင်ငွေများကိုတွက်ချက်နိုင်ပြီးလချုပ်စာရင်းများကို ကြည့်ရှုနိုင်သည့်အပြင် ကားနှင့်ပက်သက်သောအရောင်းဆိုင်များ၊ကားဝပ်ရှော့ဆိုင်များ နှင့် ဆီဆိုင်များကို အလွယ်တကူရှာဖွေကြည့်ရှုနိုင်မည့် Application တစ်ခုပဲဖြစ်ပါတယ်။'
+});
+
+
+
 
 </script>
 
