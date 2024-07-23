@@ -50,7 +50,7 @@ import axios from "axios";
 import { Dropdown } from 'bootstrap';
 
 const download = () => {
-    window.open("http://lovecar.autos/storage/apk/lovecar.apk");
+    window.open("https://lovecar.autos/storage/apk/lovecar.apk");
 }
 
 const dropDown = ref(false)
