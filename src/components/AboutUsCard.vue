@@ -1,5 +1,5 @@
 <template>
-    <div class="card my-2 rounded-4 border-0">
+    <div class="card my-2 rounded-4 border-0" style="height:220px;">
         <div class="card-title d-flex p-3">
             <font-awesome-icon class="fs-4 text-danger" :icon="icon" />
             <p class="ms-2">{{ title }}</p>
@@ -8,7 +8,7 @@
             {{ description }}
         </div>
 
-        <div class="card-footer border-0">
+        <div class="card-footer border-0 bg-white">
             <Button class="bg-danger w-100 text-white" :text="button_name" />
         </div>
     </div>

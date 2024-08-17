@@ -56,15 +56,15 @@
         >
           info.lovecar@gmail.com
         </a>
-          <p class="text-red-500 font-semibold mt-2 me-2">+95 650932592</p>
+          <p class="text-red-500 font-semibold mt-2 me-2">+959650932592</p>
         <p class="font-semibold mt-2"></p>
         <div class="mb-3">
-          <a href="https://www.facebook.com"
+          <a href="https://www.facebook.com/lovecarmyanmar?mibextid=JRoKGi"
             ><font-awesome-icon
               class="fs-4 text-red-500 mx-2"
               icon="fa-brands fa-facebook"
           /></a>
-          <a href="https://www.youtube.com"
+          <a href="https://www.youtube.com/@LoveCar224"
             ><font-awesome-icon
               class="fs-4 text-red-500 mx-2"
               icon="fa-brands fa-youtube"
