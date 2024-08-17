@@ -9,9 +9,9 @@
                 <li class="list-group-item border-0">
                     <RouterLink to="/" class="text-decoration-none font-semibold">Home</RouterLink>
                 </li>
-                <li class="list-group-item border-0">
-                    <RouterLink to="/pricing" class="text-decoration-none font-semibold">Pricing</RouterLink>
-                </li>
+                <!-- <li class="list-group-item border-0">
+                        <RouterLink to="/pricing" class="text-decoration-none font-semibold">Pricing</RouterLink>
+                    </li> -->
                 <li class="list-group-item border-0">
                     <RouterLink to="/blog" class="text-decoration-none font-semibold">Blog</RouterLink>
                 </li>
@@ -23,27 +23,34 @@
             <div class="flex items-center">
                 <Button @click="download" text="Download"
                     classes="btn btn-danger d-lg-block d-md-block d-sm-none d-none " />
-                <button v-if="!dropDown" @click="download" class="text-red-500 fw-bold d-lg-none d-md-none d-sm-block d-block me-2 mb-1">
+                <button v-if="!dropDown" @click="download"
+                    class="text-red-500 fw-bold d-lg-none d-md-none d-sm-block d-block me-2 mb-1">
                     Download
                 </button>
                 <button @click="menuOpen" class="ms-2 d-lg-none d-md-none d-sm-inline d-inline me-2">
                     <font-awesome-icon v-if="!dropDown" class="fs-5 text-red-500" icon="fa-solid fa-bars" />
                     <font-awesome-icon v-if="dropDown" class="fs-5 text-red-500" icon="fa-solid fa-xmark" />
                 </button>
-                
+
             </div>
         </nav>
         <ul v-if="dropDown" class="p-2 m-0 bg-[#f5cac3]">
-            <li class="my-4 text-red-500 px-3"><a href="/">Home</a></li>
-            <li class="my-4 text-red-500 px-3"><a href="/blog">Blog</a></li>
-            <li class="my-4 text-red-500 px-3"><a href="/about-us">About Us</a></li>
-            <li class="my-4 text-red-500 px-3"><button @click="download">Download</button></li>
+            <li class="my-4 px-3">
+                <RouterLink to="/">Home</RouterLink>
+            </li>
+            <li class="my-4 px-3">
+                <RouterLink to="/blog">Blog</RouterLink>
+            </li>
+            <li class="my-4 px-3">
+                <RouterLink to="/about-us">About Us</RouterLink>
+            </li>
+            <li class="my-4 text-red-500 px-3 font-semibold"><button @click="download">Download</button></li>
         </ul>
     </div>
 </template>
 
 <script setup>
-import {ref} from 'vue';
+import { ref } from 'vue';
 import Button from "@/components/Button.vue";
 import { RouterLink } from "vue-router";
 import axios from "axios";
@@ -59,8 +66,6 @@ const menuOpen = () => {
     dropDown.value = !dropDown.value
 }
 
-
-
 // const download = async () => {
 //     const response = await axios.get("@/LoveCar.apk", {
 //         responseType: "blob", // Important for handling binary data
@@ -70,7 +75,7 @@ const menuOpen = () => {
 //     const contentType = response.headers["content-type"];
 //     console.log("Content-Type:", contentType);
 
-//     // Create a new Blob object using the response data
+//     // Create RouteLink new Blob object using the response data
 //     const fileBlob = new Blob([response.data], { type: contentType });
 
 //     // Create a link element
@@ -91,45 +96,44 @@ const menuOpen = () => {
 </script>
 
 <style scoped>
-
-li a.router-link-exact-active{
-    color:red;
+li a.router-link-exact-active {
+    color: red;
 }
 
-
-ul li a{
-    color:black;
-    text-decoration:none;
+ul li a {
+    color: black;
+    text-decoration: none;
 }
- .container-fluid ul li:before{
+
+ul li:before {
     content: "";
-    position:absolute;
-    width:0%;
-    height:3px;
-    background-color:#000;
-    bottom:0;
-    left:0;
-    transition:0.5s;
-    border-radius:5px;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
 }
- .container-fluid ul li:after{
+
+ul li:after {
     content: "";
-    position:absolute;
-    width:0%;
-    height:3px;
-    background-color:red;
-    bottom:0;
-    right:0;
-    transition:0.5s;
-}
- .container-fluid ul li:hover:before{
-    width:50%;
-    transform:translateX(100%);
-}
- .container-fluid ul li:hover:after{
-    width:50%;
-    transform:translateX(-100%);
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
 }
 
+ul li:hover:before {
+    width: 50%;
+    transform: translateX(100%);
+}
 
+ul li:hover:after {
+    width: 50%;
+    transform: translateX(-100%);
+}
 </style>
