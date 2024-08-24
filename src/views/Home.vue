@@ -101,7 +101,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client6.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
 
@@ -112,7 +112,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client2.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -122,7 +122,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client3.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client4.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -146,7 +146,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client5.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -156,7 +156,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client6.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client.jpg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -180,7 +180,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client3.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -190,7 +190,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client4.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
