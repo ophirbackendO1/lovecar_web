@@ -101,7 +101,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client6.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
 
@@ -112,7 +112,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client2.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -122,7 +122,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client3.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client4.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -146,7 +146,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client5.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -156,7 +156,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client6.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client.jpg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -180,7 +180,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client3.webp" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-lg-block">
@@ -190,7 +190,7 @@
                     <p class="skew"></p>
                   </div>
                   <div class="client">
-                    <img src="../images/client4.jpeg" alt="">
+                    <img src="https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -239,17 +239,17 @@
 import { ref, onMounted } from "vue";
 import InfoCard from "@/components/InfoCard.vue";
 import Footer from "@/components/Footer.vue";
-import axios from "axios"; 
+// import axios from "axios"; 
 
 const user_count = ref();
-onMounted(async () => {
-  try {
-    const response = await axios.get('https://lovecar.autos/api/getAllUsers');
-    user_count.value = response.data.data;
-  } catch (error) {
-    console.error('Error fetching user count:', error);
-  }
-});
+// onMounted(async () => {
+//   try {
+//     const response = await axios.get('https://lovecar.autos/api/getAllUsers');
+//     user_count.value = response.data.data;
+//   } catch (error) {
+//     console.error('Error fetching user count:', error);
+//   }
+// });
 const cards = ref([
   {
     title: "လိုင်စင်လျှောက်နည်းများ",
@@ -310,7 +310,7 @@ const manageCards = ref([
   },
   {
     title: "လက်ရှိအသုံးပြုသူပေါင်း",
-    description: user_count,
+    description: '300000',
     image:
       "https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png",
   },
