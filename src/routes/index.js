@@ -4,6 +4,7 @@ const routes = [
   { path: '/',component: () => import('../views/Home.vue') },
   { path: '/blog',component: () => import('../views/Blog.vue') },
   { path: '/about-us',component: () => import('../views/AboutUs.vue') },
+  { path: '/user-guide',component: () => import('../views/UserGuide.vue') },
   { path: '/privacy-policy', component: () => import('../views/PrivacyPolicy.vue') },
   { path: '/user-agreement', component: () => import('../views/UserAgreement.vue') },
   { path : '/account_delete', component: () => import('../views/AccountDelete.vue') },

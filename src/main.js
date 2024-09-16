@@ -3,15 +3,15 @@ import './main.css';
 import App from './views/App.vue'
 import router from './routes';
 
-//bootstrap
+//bootstrapp
 import 'bootstrap/dist/css/bootstrap.css'
 import bootstrap from 'bootstrap/dist/js/bootstrap.js'
 
 // fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark,faQuoteLeft,faQuoteRight,faStar} from '@fortawesome/free-solid-svg-icons';
-library.add(faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark,faQuoteLeft,faQuoteRight,faStar);
+import { faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark,faQuoteLeft,faQuoteRight,faStar,faArrowRight} from '@fortawesome/free-solid-svg-icons';
+library.add(faBars,faPencil,faEnvelope,faPhone,faTrashCan,faXmark,faQuoteLeft,faQuoteRight,faStar,faArrowRight);
 
 //toastification
 import Toast from 'vue-toastification'

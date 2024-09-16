@@ -9,7 +9,7 @@
         </div>
 
         <div class="card-footer border-0 bg-white">
-            <Button class="bg-danger w-100 text-white" :text="button_name" />
+            <Button classes="bg-danger w-100 text-white" :text="button_name" :type="type"/>
         </div>
     </div>
 </template>
@@ -22,7 +22,8 @@ const props  = defineProps({
     title : String,
     description : String,
     icon : String,
-    button_name : String
+    button_name : String,
+    type : String
 })
 
 </script>

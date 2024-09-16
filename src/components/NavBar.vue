@@ -9,16 +9,20 @@
                 <li class="list-group-item border-0">
                     <RouterLink to="/" class="text-decoration-none font-semibold">Home</RouterLink>
                 </li>
-                <!-- <li class="list-group-item border-0">
-                        <RouterLink to="/pricing" class="text-decoration-none font-semibold">Pricing</RouterLink>
-                    </li> -->
-                <li class="list-group-item border-0">
-                    <RouterLink to="/blog" class="text-decoration-none font-semibold">Blog</RouterLink>
-                </li>
                 <li class="list-group-item border-0">
                     <RouterLink to="/about-us" class="text-decoration-none font-semibold">About us
                     </RouterLink>
                 </li>
+                
+                <li class="list-group-item border-0">
+                    <RouterLink to="/blog" class="text-decoration-none font-semibold">Blog</RouterLink>
+                </li>
+
+                <li class="list-group-item border-0">
+                    <RouterLink to="/user-guide" class="text-decoration-none font-semibold">User Guides
+                    </RouterLink>
+                </li>
+             
             </ul>
             <div class="flex items-center">
                 <Button @click="download" text="Download"
@@ -36,13 +40,13 @@
         </nav>
         <ul v-if="dropDown" class="p-2 m-0 bg-[#f5cac3]">
             <li class="my-4 px-3">
-                <RouterLink to="/">Home</RouterLink>
+                <RouterLink to="/" @click="closeMenu">Home</RouterLink>
             </li>
             <li class="my-4 px-3">
-                <RouterLink to="/blog">Blog</RouterLink>
+                <RouterLink to="/about-us" @click="closeMenu">About Us</RouterLink>
             </li>
             <li class="my-4 px-3">
-                <RouterLink to="/about-us">About Us</RouterLink>
+                <RouterLink to="/blog" @click="closeMenu">Blog</RouterLink>
             </li>
             <li class="my-4 text-red-500 px-3 font-semibold"><button @click="download">Download</button></li>
         </ul>
@@ -53,8 +57,6 @@
 import { ref } from 'vue';
 import Button from "@/components/Button.vue";
 import { RouterLink } from "vue-router";
-import axios from "axios";
-import { Dropdown } from 'bootstrap';
 
 const download = () => {
     window.open("https://lovecar.autos/storage/apk/lovecar.apk");
@@ -63,6 +65,10 @@ const download = () => {
 const dropDown = ref(false)
 
 const menuOpen = () => {
+    dropDown.value = !dropDown.value
+}
+
+const closeMenu = () => {
     dropDown.value = !dropDown.value
 }
 

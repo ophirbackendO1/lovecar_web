@@ -1,0 +1,22 @@
+[
+    {
+      "title": "အသုံးပြုသူစုစုပေါင်း",
+      "description":
+        300000,
+      "image":
+        "src/images/total-user.png"
+    },
+    {
+      "title": "ကားအရေအတွက်",
+      "description": 100000,
+      "image":
+        "src/images/total-car.png"
+    },
+    {
+      "title": "ဆိုင်အရေအတွက်",
+      "description": 150000,
+      "image":
+        "src/images/shop.png"
+    }
+]
+  

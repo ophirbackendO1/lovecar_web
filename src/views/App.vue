@@ -10,7 +10,6 @@
 import Navbar from '@/components/NavBar.vue'
 import { RouterView } from 'vue-router';
 
-
 </script>
 
 <style>
