@@ -80,7 +80,7 @@
       </div>
       <div class="row">
 
-        <div class="col-md-4 order-sm-1 order-md-2 d-flex justify-center mt-5">
+        <div class="col-md-4 order-sm-1 order-md-2 d-flex justify-center my-5">
           <div class="d-flex rounded-5"
             style="border:6px solid black; width:260px; height:500px; position:relative; ">
             <div class="carousel-images d-flex">
